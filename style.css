@@ -1,0 +1,125 @@
+body {
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 25px;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 5px 0px;
+}
+
+.logo img {
+  width: 50px;
+}
+
+.navbar li {
+  padding: 0px 25px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar li a {
+  color: #333;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.navbar li:hover {
+  transform: scale(1.2);
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+.title h1 {
+  font-family: "Playfair Display";
+  color: #c70c6d;
+  font-size: 75px;
+  font-weight: 300;
+  letter-spacing: 5px;
+}
+
+#about {
+  padding: 10px 180px;
+}
+
+#about p {
+  text-align: center;
+}
+
+#work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px;
+}
+
+#work div {
+  padding: 20px 20px;
+  text-align: center;
+}
+
+#work img {
+  width: 85%;
+}
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1f6f9;
+  padding: 10px 25px;
+}
+
+.left {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.left h3 {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.social-buttons {
+  display: flex;
+}
+
+.social-buttons a {
+  padding-right: 90px;
+}
+
+.social-buttons img {
+  width: 25px;
+}
+
+.right {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.right img {
+  width: 40px;
+  text-align: center;
+}
+
+.right p {
+  font-size: 12px;
+}
