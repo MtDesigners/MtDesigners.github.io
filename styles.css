@@ -264,7 +264,7 @@ body {
   }
 
   #work h2 {
-    margin-left: 50px;
+    margin-left: 40px;
   }
 
   .row {
@@ -335,7 +335,6 @@ body {
   
   #about h2 {
     font-size: 50px;
-    margin-bottom: -30px;
   }
 
   #about p {
@@ -343,13 +342,12 @@ body {
   }
 
   #work {
-    margin: 15px 0px;
+    margin: 25px 0px;
     padding: 0;
   }
 
   #work h2 {
     font-size: 50px;
-    margin-bottom: -30px;
     margin-left: 40px;
   }
 
