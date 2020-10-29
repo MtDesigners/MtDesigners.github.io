@@ -154,7 +154,7 @@ body {
   flex: 30%;
   max-width: 30%;
   margin: 10px 10px;
-  padding: 15px;
+  padding-top: 10px;
   transition: all 0.3s ease-in-out;
 }
 
@@ -333,6 +333,11 @@ body {
   #about {
     padding: 10px 40px;
   }
+  
+  #about h2 {
+    font-size: 50px;
+    margin-bottom: -30px;
+  }
 
   #about p {
     font-size: 16px;
@@ -344,6 +349,8 @@ body {
   }
 
   #work h2 {
+    font-size: 50px;
+    margin-bottom: -30px;
     margin-left: 40px;
   }
 
